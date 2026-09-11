@@ -1,19 +1,42 @@
-# Demo_Link : [Click_here](https://darksnake288-pixel.github.io/Business-Card/)
-# Programming Learning
+# Business Card
 
-A simple web project containing an HTML page and a stylesheet for practicing front-end development.
+Personal digital business card for **Youssef Adel**, a frontend developer. The card centers a photo, role, and links to GitHub, LinkedIn, X, Instagram, and WhatsApp.
+
+**Live pages:** [github.io/Business-Card](https://darksnake288-pixel.github.io/Business-Card/)
+
+## Features
+
+- Centered card layout on a violet background
+- Profile photo and contact buttons
+- Hover and bounce interactions
+- Tailwind CSS via CDN (no build step)
+
+## Stack
+
+- HTML5
+- Tailwind CSS 4 (browser CDN)
+- `style.css` (optional extra styles)
+
+## Run locally
+
+Open `index.html` in a browser, or from the project folder:
+
+```bash
+git clone https://github.com/darksnake288-pixel/Business-Card.git
+cd Business-Card
+python3 -m http.server 8080
+```
+
+Then visit `http://localhost:8080`.
 
 ## Files
 
-- `index.html` - Main HTML file for the page content and structure.
-- `style.css` - CSS stylesheet for page styling.
+| File | Role |
+| --- | --- |
+| `index.html` | Card markup and Tailwind |
+| `image.png` | Profile photo |
+| `style.css` | Extra stylesheet |
 
-## Usage
+## Author
 
-1. Open `index.html` in a web browser.
-2. Edit `index.html` and `style.css` to experiment with HTML and CSS.
-
-## Notes
-
-- No build tools or dependencies are required.
-- This project is suitable for learning basic web development concepts.
+[Youssef Adel](https://github.com/darksnake288-pixel)
